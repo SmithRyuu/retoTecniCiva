@@ -73,7 +73,7 @@ const TablaBuses = () => {
         >
           Anterior
         </button>
-        <span>
+        <span className="page-info">
           Página {page + 1} de {totalPages}
         </span>
         <button
