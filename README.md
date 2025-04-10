@@ -1,9 +1,5 @@
 #  API y Frontend de Gestión de Buses
-
 Este proyecto FullStack permite visualizar una lista de buses y ver sus detalles, desarrollando una API REST con **Spring Boot** y un frontend con **React**. Incluye funcionalidades como paginación y visualización de detalles.
-
-
----
 
 ##  Tecnologías Utilizadas
 
