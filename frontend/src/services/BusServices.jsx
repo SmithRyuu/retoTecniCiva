@@ -1,8 +1,7 @@
-// services/BusServices.js
 export const getBuses = async (page, size) => {
   const response = await fetch(`http://localhost:8080/bus?page=${page}&size=${size}`);
   const data = await response.json();
-  return data;  // Devuelve el contenido de la respuesta para usarlo en la tabla
+  return data;
 };
 
 export const getBusById = async (id) => {

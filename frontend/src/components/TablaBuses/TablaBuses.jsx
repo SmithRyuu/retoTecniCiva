@@ -26,8 +26,8 @@ const TablaBuses = () => {
 
   const openDetailModal = async (busId) => {
     const busDetails = await getBusById(busId);
-    setSelectedBus(busDetails); // Establecer los detalles del bus
-    setShowDetailModal(true); // Abrir el modal
+    setSelectedBus(busDetails); 
+    setShowDetailModal(true); 
   };
 
   return (
@@ -84,7 +84,7 @@ const TablaBuses = () => {
         </button>
       </div>
 
-      {/* Modal */}
+
       <Modal
         isOpen={showDetailModal}
         onClose={() => setShowDetailModal(false)}

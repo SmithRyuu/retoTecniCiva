@@ -18,8 +18,8 @@
     background-image: url('../../../public/background.jpg');
     background-size: cover;
     background-position: center;
-    opacity: .8; /* Controla la opacidad de la imagen */
-    z-index: -1; /* Asegura que el pseudo-elemento no cubra el contenido */
+    opacity: .8; 
+    z-index: -1; 
   }
 body {
     margin: 0;
